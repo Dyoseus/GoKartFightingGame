@@ -31,7 +31,7 @@ Transform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7828072654543355269}
+  - {fileID: 6845565022875969540}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -60,7 +60,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0928e4f001d6e4196a355bd56d569e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 0}
+  projectile: {fileID: 7325985072796913302, guid: 8663c7491687c2c479e392440d64be9c,
+    type: 3}
   rotationSpeed: 10
 --- !u!114 &-2970771729994371859
 MonoBehaviour:
@@ -78,7 +79,7 @@ MonoBehaviour:
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!1001 &7721527010169461358
+--- !u!1001 &6380171732302499823
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -140,11 +141,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7635826562936255635, guid: 35a72b901060f8e41a4f043b05e16d49,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 20cc30d423660ca498974e2cf5c77916, type: 2}
     - target: {fileID: 919132149155446097, guid: 35a72b901060f8e41a4f043b05e16d49,
         type: 3}
       propertyPath: m_Name
@@ -152,9 +148,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35a72b901060f8e41a4f043b05e16d49, type: 3}
---- !u!4 &7828072654543355269 stripped
+--- !u!4 &6845565022875969540 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 35a72b901060f8e41a4f043b05e16d49,
     type: 3}
-  m_PrefabInstance: {fileID: 7721527010169461358}
+  m_PrefabInstance: {fileID: 6380171732302499823}
   m_PrefabAsset: {fileID: 0}

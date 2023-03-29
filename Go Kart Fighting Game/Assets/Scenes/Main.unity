@@ -1111,7 +1111,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 20.987, y: 0, z: 0}
 --- !u!1 &798809252
 GameObject:
@@ -2334,12 +2334,6 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 1128472900
       objectReference: {fileID: 0}
-    - target: {fileID: 4709468257963776339, guid: de0be00613b074b4382b7603b70bda98,
-        type: 3}
-      propertyPath: projectile
-      value: 
-      objectReference: {fileID: 7325985072796913302, guid: 8663c7491687c2c479e392440d64be9c,
-        type: 3}
     - target: {fileID: 6933148991741612925, guid: de0be00613b074b4382b7603b70bda98,
         type: 3}
       propertyPath: m_Name
@@ -2400,10 +2394,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9016285435240730883, guid: de0be00613b074b4382b7603b70bda98,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 20cc30d423660ca498974e2cf5c77916, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de0be00613b074b4382b7603b70bda98, type: 3}
